@@ -1,0 +1,219 @@
+@import '../../styles/vars';
+
+.Footer {
+  padding-top: 110px;
+  height: 600px;
+  background-color: $footerBg;
+
+  .FooterContentWrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 10px;
+    margin-bottom: 45px;
+
+    .subscriptionWrap {
+      padding: 78px 72px 0;
+      width: 534px;
+      height: 370px;
+      text-align: center;
+      background-image: linear-gradient(
+          to right,
+          rgba(38, 38, 38, 0.85),
+          rgba(38, 38, 38, 0.85)
+        ),
+        url('../images/footer-01-base.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 14px;
+
+      .FooterTitle {
+        font-size: 24px;
+        font-weight: 800;
+        color: $primaryWhiteColor;
+
+        &::after {
+          content: '';
+          display: block;
+          margin: 0 auto;
+          margin-bottom: 23px;
+          width: 15px;
+          height: 21px;
+          border-bottom: 1px solid $primaryWhiteColor;
+        }
+      }
+
+      .FooterText {
+        margin-bottom: 36px;
+        font-size: 13px;
+        line-height: 2.1;
+        color: $footerGreyTextColor;
+      }
+
+      .FooterForm {
+        position: relative;
+
+        .FooterInput {
+          padding-left: 3px;
+          width: 300px;
+          height: 44px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 500;
+          background-color: transparent;
+          border: none;
+          border-top: 1px solid $primaryWhiteColor15;
+          border-bottom: 1px solid $primaryWhiteColor15;
+          font-size: 13px;
+          color: $primaryWhiteColor;
+
+          &::placeholder {
+            color: $primaryWhiteColor;
+          }
+
+          &:focus {
+            outline: none;
+          }
+        }
+
+        .FooterFormBtn {
+          position: absolute;
+          top: 0;
+          right: 43px;
+          display: flex;
+          align-items: center;
+          width: 25px;
+          height: 44px;
+
+          & > svg {
+            width: 20px;
+            height: 20px;
+            fill: $primaryWhiteColor;
+          }
+        }
+      }
+    }
+
+    .FooterMenulWrap {
+      padding-top: 42px;
+      width: 534px;
+      height: 370px;
+      text-align: center;
+
+      .FooterLogoWrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        // a
+        .FooterLogo {
+          padding-left: 30px;
+          margin-bottom: 17px;
+          font-family: 'Playfair Display', serif;
+          font-size: 50px;
+          letter-spacing: 22.8px;
+          text-transform: uppercase;
+        }
+      }
+
+      .FooterSubtitle {
+        display: block;
+        margin-bottom: 50px;
+        font-family: 'Quentin';
+        font-size: 18px;
+      }
+
+      .FooterNav {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+        width: 100%;
+
+        .FooterNavList {
+          display: flex;
+          justify-content: space-between;
+          width: 372px;
+          list-style: none;
+
+          .FooterNavItem {
+            padding-bottom: 5px;
+
+            .FooterNavLink {
+              display: block;
+              font-size: 13px;
+              font-weight: 700;
+              letter-spacing: 1px;
+            }
+          }
+        }
+      }
+
+      .FooterSocialList {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 3px;
+        margin: 0 auto;
+        margin-bottom: 22px;
+        width: 180px;
+        height: 40px;
+        list-style: none;
+
+        .FooterSocialItem {
+          .FooterSocialLink {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+          }
+
+          &:nth-child(1) .FooterSocialLink svg {
+            width: 14px;
+            height: 14px;
+          }
+
+          &:nth-child(2) .FooterSocialLink svg {
+            width: 21px;
+            height: 21px;
+          }
+
+          &:nth-child(3) .FooterSocialLink svg {
+            width: 24px;
+            height: 24px;
+          }
+
+          &:nth-child(4) .FooterSocialLink svg {
+            width: 20px;
+            height: 20px;
+          }
+        }
+      }
+
+      .copyright {
+        font-size: 12px;
+        padding-left: 9px;
+        letter-spacing: 0.5px;
+        color: $footerGreyTextColor;
+
+        & > span {
+          padding-left: 8px;
+        }
+      }
+    }
+  }
+
+  .goUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 46px;
+    height: 46px;
+    background-color: $primaryWhiteBg;
+    border-radius: 23px;
+
+    & > svg {
+      width: 16px;
+      height: 16px;
+      fill: $primaryColor;
+    }
+  }
+}

@@ -1,0 +1,87 @@
+@import '../../styles/vars';
+
+.Header {
+  margin-bottom: 26px;
+
+  .logoWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 149px;
+
+    // a
+    .Logo {
+      padding-left: 26px;
+      height: 66px;
+      font-family: 'Playfair Display', serif;
+      font-size: 50px;
+      letter-spacing: 22.8px;
+      text-transform: uppercase;
+    }
+  }
+
+  .Menu {
+    padding-top: 1px;
+    border-top: 1px solid $headerBorderColor;
+    border-bottom: 1px solid $headerBorderColor;
+
+    .MenuContentWrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 56px;
+
+      .searchWrap {
+        width: 150px;
+
+        .searchBtn {
+          padding-left: 3px;
+          & > svg {
+            width: 16px;
+            height: 16px;
+            fill: $primaryColor;
+          }
+        }
+      }
+
+      .Nav {
+        width: 100%;
+        max-width: 670px;
+
+        .NavList {
+          display: flex;
+          justify-content: space-between;
+          list-style: none;
+
+          & > li {
+            padding-bottom: 5px;
+            .NavLink {
+              display: block;
+              font-size: 12px;
+              font-weight: 500;
+              letter-spacing: 1px;
+            }
+          }
+        }
+      }
+
+      .menuWrap {
+        display: flex;
+        width: 150px;
+
+        & > button {
+          &:first-child {
+            margin-left: auto;
+            margin-right: 30px;
+          }
+
+          & > svg {
+            width: 17px;
+            height: 17px;
+            fill: $primaryColor;
+          }
+        }
+      }
+    }
+  }
+}

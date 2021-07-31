@@ -1,0 +1,149 @@
+{
+  "header": {
+    "navLinks": [
+      "Home",
+      "Features",
+      "Travel",
+      "Pages",
+      "Shop",
+      "About",
+      "Contact"
+    ]
+  },
+  "main": {
+    "slider": {
+      "socialIcons": [
+        { "icon": "#twitter", "url": "/" },
+        { "icon": "#facebook", "url": "/" },
+        { "icon": "#pinterest", "url": "/" }
+      ]
+    },
+    "about": {
+      "label": "About",
+      "title": "Welcome to My World",
+      "description": "Proin eleifend lobortis purus, nec mollis risus hendrerit vel. Aenean consequat aliquam sit amet alesa dui ferme ntumit amet.",
+      "callToAction": { "text": "Be the first to know", "url": "/" },
+      "alt": "A couple in love embracing"
+    },
+    "posts": {
+      "mainPostMeta": {
+        "label": "Interior",
+        "postDate": "2 month ago",
+        "title": "The Weekend Style & Sales",
+        "timeReadMins": "3 Mins Read",
+        "timeReadBy": "by Jessica",
+        "text": "Proin eleifend lobortis purus nec mollis risus ndrerit. Aenean consequat aliquam sit amet alesa dui ferme umit amet. Etiam a euismod velit, sit amet porttitor magna. Morbi accumsan portofina abrsrasimo costa sodales vitae fringilla. "
+      },
+      "postList": [
+        {
+          "label": "Interior",
+          "url": "PostInteriorImg01",
+          "postDate": "2 month ago",
+          "title": "Sweater Weather",
+          "timeReadMins": "3 Mins Read",
+          "timeReadBy": "by Jessica",
+          "text": "Proin eleifend lobortis purus nec mollis risus ndrerit. Aenean consequat aliquam sit amet alesa dui ferme umit sotin..."
+        },
+        {
+          "label": "Fashion",
+          "url": "PostFashionImg01",
+          "postDate": "2 month ago",
+          "title": "Nature of Reality",
+          "timeReadMins": "7 Mins Read",
+          "timeReadBy": "by Jessica",
+          "text": "Proin eleifend lobortis purus nec mollis risus ndrerit. Aenean consequat aliquam sit amet alesa dui ferme umit sotin..."
+        },
+        {
+          "label": "Lifestyle",
+          "url": "PostLifestyleImg01",
+          "postDate": "3 month ago",
+          "title": "Throwing Hands",
+          "timeReadMins": "6 Mins Read",
+          "timeReadBy": "by Jessica",
+          "text": "Proin eleifend lobortis purus nec mollis risus ndrerit. Aenean consequat aliquam sit amet alesa dui ferme umit sotin..."
+        },
+        {
+          "label": "Travel",
+          "url": "PostTravelImg01",
+          "postDate": "3 month ago",
+          "title": "Story in a Bottle",
+          "timeReadMins": "8 Mins Read",
+          "timeReadBy": "by Jessica",
+          "text": "Proin eleifend lobortis purus nec mollis risus ndrerit. Aenean consequat aliquam sit amet alesa dui ferme umit sotin..."
+        },
+        {
+          "label": "Interior",
+          "url": "PostInteriorImg02",
+          "postDate": "4 month ago",
+          "title": "Cultural Expression",
+          "timeReadMins": "5 Mins Read",
+          "timeReadBy": "by Jessica",
+          "text": "Proin eleifend lobortis purus nec mollis risus ndrerit. Aenean consequat aliquam sit amet alesa dui ferme umit sotin..."
+        },
+        {
+          "label": "Fashion",
+          "url": "PostFashionImg02",
+          "postDate": "4 month ago",
+          "title": "Chasing the Sun",
+          "timeReadMins": "4 Mins Read",
+          "timeReadBy": "by Jessica",
+          "text": "Proin eleifend lobortis purus nec mollis risus ndrerit. Aenean consequat aliquam sit amet alesa dui ferme umit sotin..."
+        },
+        {
+          "label": "Interior",
+          "url": "PostInteriorImg03",
+          "postDate": "4 month ago",
+          "title": "Spring Edition",
+          "timeReadMins": "5 Mins Read",
+          "timeReadBy": "by Jessica",
+          "text": "Proin eleifend lobortis purus nec mollis risus ndrerit. Aenean consequat aliquam sit amet alesa dui ferme umit sotin..."
+        },
+        {
+          "label": "Fashion",
+          "url": "PostFashionImg03",
+          "postDate": "4 month ago",
+          "title": "Holidays Again",
+          "timeReadMins": "4 Mins Read",
+          "timeReadBy": "by Jessica",
+          "text": "Proin eleifend lobortis purus nec mollis risus ndrerit. Aenean consequat aliquam sit amet alesa dui ferme umit sotin..."
+        }
+      ]
+    }
+  },
+  "sidebar": {
+    "socialIcons": ["#instagram", "#fb", "#twitter", "#pinterest", "#heart"],
+    "popularPosts": [
+      {
+        "url": "SidebarPopPost01",
+        "topic": "Sweet and Sharp Two Outfit of Spring",
+        "date": "July 27, 2019"
+      },
+      {
+        "url": "SidebarPopPost02",
+        "topic": "Presence Of You to Find the Adsence",
+        "date": "July 27, 2019"
+      },
+      {
+        "url": "SidebarPopPost03",
+        "topic": "Dress Gets You Excited for Spring",
+        "date": "July 27, 2019"
+      }
+    ],
+    "categories": ["Interior", "Fashion", "Lifestyle", "Travel"],
+    "instagram": [
+      "SidebarInstagram01",
+      "SidebarInstagram02",
+      "SidebarInstagram03",
+      "SidebarInstagram04"
+    ]
+  },
+  "footer": {
+    "navLinks": ["Home", "Shop", "About", "Contact"],
+    "socialLinks": [
+      { "icon": "instagram", "url": "/" },
+      { "icon": "twitter", "url": "/" },
+      { "icon": "pinterest", "url": "/" },
+      { "icon": "facebook", "url": "/" }
+    ]
+  }
+}

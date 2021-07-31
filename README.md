@@ -1,2 +1,3 @@
-# jessi
-HTML/CSS Layout
+# JESSI
+
+Just HTML/CSS layout for first page of Wordpress Theme

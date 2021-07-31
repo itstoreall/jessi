@@ -1,0 +1,529 @@
+@import '../../styles/vars';
+
+.Main {
+  padding-bottom: 145px;
+
+  // Slider --------------------------------
+  .Slider {
+    position: relative;
+    margin: 0 auto 98px;
+    height: 688px;
+    max-width: 1800px;
+    background-image: url('../images/hero.jpg');
+    background-position-x: center;
+    background-repeat: no-repeat;
+
+    .socialIconList {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-80px);
+      padding-left: 64px;
+      height: 150px;
+      list-style: none;
+
+      & > li {
+        &:not(:last-child) {
+          margin-bottom: 25px;
+        }
+        & > a {
+          & > svg {
+            width: 20px;
+            height: 20px;
+            fill: $primaryWhiteColor;
+          }
+        }
+      }
+    }
+
+    .scroolBtn {
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50px);
+      padding-bottom: 35px;
+      width: 100px;
+      text-align: center;
+      cursor: pointer;
+
+      .scrool {
+        display: block;
+        margin-bottom: 16px;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.6px;
+        color: $primaryWhiteColor;
+        text-transform: uppercase;
+      }
+
+      & > svg {
+        width: 20px;
+        height: 20px;
+        fill: $primaryWhiteColor;
+      }
+    }
+  }
+
+  // About --------------------------------
+  .About {
+    margin-bottom: 110px;
+    overflow: hidden;
+
+    .AboutContentWrap {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      width: 800px;
+
+      .AboutContent {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 330px;
+
+        .AboutLabel {
+          position: absolute;
+          top: 43px;
+          right: -20px;
+          font-size: 12px;
+          font-weight: 500;
+          letter-spacing: 1.1px;
+          text-transform: uppercase;
+          color: $sidebarGreyTextColor;
+
+          transform: rotate(270deg);
+          -o-transform: rotate(270deg);
+          -ms-transform: rotate(270deg);
+          -moz-transform: rotate(270deg);
+          -webkit-transform: rotate(270deg);
+        }
+
+        .AboutContentTextWrap {
+          padding-top: 50px;
+          height: 350px;
+
+          .AboutTitle {
+            margin-bottom: 30px;
+            font-size: 34px;
+            line-height: 1.3;
+            letter-spacing: 0.4px;
+          }
+
+          .AboutText {
+            margin-bottom: 47px;
+            font-size: 15px;
+            line-height: 2;
+            color: $primaryPostTextColor;
+
+            // ...
+
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+          }
+
+          .beFirstBtn {
+            display: flex;
+            align-items: center;
+
+            & > span {
+              margin-right: 20px;
+              font-size: 11px;
+              font-weight: 600;
+              letter-spacing: 1px;
+              text-transform: uppercase;
+            }
+
+            & > svg {
+              width: 12px;
+              height: 12px;
+              fill: $primaryColor;
+            }
+          }
+        }
+      }
+
+      .AboutThumb {
+        width: 430px;
+        height: 510px;
+      }
+
+      .AboutInstagram {
+        position: absolute;
+        top: 50%;
+        left: 710px;
+        transform: translateY(-137px);
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 275px;
+        background-color: $primaryWhiteBg;
+
+        .AboutInstagramThumb {
+          width: 204px;
+          height: 204px;
+
+          &:not(:last-child) {
+            margin-right: 10.75px;
+          }
+        }
+
+        .AboutFollowMeWrap {
+          position: relative;
+          width: 50px;
+          height: 200px;
+
+          .AboutFollowMe {
+            position: absolute;
+            top: 85px;
+            left: -70px;
+            width: 190px;
+            height: 30px;
+
+            transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -webkit-transform: rotate(90deg);
+
+            & > a {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding-bottom: 5px;
+              height: 30px;
+              font-family: 'Quentin';
+              font-size: 20px;
+
+              & > svg {
+                margin-right: 27px;
+                width: 16px;
+                height: 16px;
+                fill: $primaryColor;
+
+                transform: rotate(180deg);
+                -o-transform: rotate(180deg);
+                -ms-transform: rotate(180deg);
+                -moz-transform: rotate(180deg);
+                -webkit-transform: rotate(180deg);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Posts -------------------------------------
+  .Posts {
+    .PostContentWrap {
+      display: flex;
+      justify-content: space-between;
+
+      .PostFeed {
+        // Post Main ------------
+        .PostMain {
+          position: relative;
+          height: 916px;
+          width: 815px;
+
+          & > .PostLabel {
+            position: absolute;
+            top: 32px;
+            right: 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 103px;
+            height: 32px;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            border-radius: 16px;
+            text-transform: uppercase;
+            background-color: $primaryWhiteBg;
+          }
+
+          .PostMainPhotoThumb {
+            width: 100%;
+            height: 625px;
+          }
+
+          .PostMainMeta {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-328px);
+            padding-top: 43px;
+            width: 656px;
+            height: 340px;
+            text-align: center;
+            background-color: white;
+
+            .PostMainDate {
+              display: block;
+              margin-bottom: 25.5px;
+              font-family: 'Quentin';
+              font-size: 18px;
+
+              &::after {
+                content: '';
+                display: block;
+                padding-top: 7px;
+                margin: 0 auto;
+                width: 145px;
+                height: 1px;
+                border-bottom: 1px solid $primaryColor;
+
+                transform: rotate(-3deg);
+                -o-transform: rotate(-3deg);
+                -ms-transform: rotate(-3deg);
+                -moz-transform: rotate(-3deg);
+                -webkit-transform: rotate(-3deg);
+              }
+            }
+
+            .PostMainTitle {
+              margin-bottom: 20px;
+              font-size: 38px;
+              color: $primaryColor;
+            }
+
+            .PostMainTimeRead {
+              display: block;
+              margin-bottom: 30px;
+              font-family: 'Montserrat', sans-serif;
+              font-size: 11px;
+              font-weight: 600;
+              letter-spacing: 0.2px;
+              text-transform: uppercase;
+              color: $secondaryColor;
+
+              .splitter {
+                padding: 0 13px;
+              }
+            }
+
+            .PostMainText {
+              font-size: 15px;
+              line-height: 1.9;
+              color: $primaryPostTextColor;
+
+              // ...
+
+              display: -webkit-box;
+              -webkit-line-clamp: 3;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+            }
+          }
+        }
+
+        // Posts Add Info --------------------------------
+        .PostAddInfo {
+          position: relative;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 80px;
+          width: 100%;
+          height: 50px;
+          border-top: 1px solid $primaryBorderGreyColor;
+          border-bottom: 1px solid $primaryBorderGreyColor;
+
+          & > .btnWrap {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-102px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 204px;
+            height: 50px;
+            background-color: $primaryWhiteBg;
+
+            button {
+              width: 135px;
+              height: 37px;
+              font-size: 11px;
+              font-weight: 600;
+              letter-spacing: 1px;
+              text-transform: uppercase;
+              color: $primaryWhiteColor;
+              background-color: $primaryColor;
+              border-radius: 20px;
+            }
+          }
+
+          & > a {
+            display: flex;
+            align-items: center;
+
+            & > span {
+              margin-right: 12px;
+              font-size: 11px;
+              font-weight: 600;
+              letter-spacing: 1px;
+              text-transform: uppercase;
+            }
+
+            & > svg {
+              width: 12px;
+              height: 12px;
+              fill: $primaryColor;
+            }
+          }
+        }
+
+        // Post List -----------------------------------
+        .PostListWrap {
+          margin-bottom: 37px;
+
+          .PostList {
+            display: flex;
+            flex-wrap: wrap;
+            width: 815px;
+            list-style: none;
+
+            & > li {
+              position: relative;
+              width: 387px;
+              height: 687px;
+
+              &:not(:nth-child(2n)) {
+                margin-right: 41px;
+              }
+
+              .PostLabel {
+                position: absolute;
+                top: 28px;
+                right: 27px;
+                display: block;
+                padding: 10px 20px 10px;
+                font-size: 11px;
+                font-weight: 600;
+                letter-spacing: 1px;
+                border-radius: 16px;
+                text-transform: uppercase;
+                background-color: $primaryWhiteColor70;
+              }
+
+              .PostItemThumb {
+                margin-bottom: 45px;
+                width: 387px;
+                height: 328px;
+              }
+
+              // Post Item Meta
+              .PostItemMeta {
+                margin-bottom: 32px;
+                text-align: center;
+
+                .PostDate {
+                  display: block;
+                  margin-bottom: 23px;
+                  font-size: 18px;
+                  font-family: 'Quentin';
+
+                  &::after {
+                    content: '';
+                    display: block;
+                    padding-top: 7px;
+                    margin: 0 auto;
+                    width: 145px;
+                    height: 1px;
+                    border-bottom: 1px solid $primaryColor;
+
+                    transform: rotate(-3.5deg);
+                    -o-transform: rotate(-3.5deg);
+                    -ms-transform: rotate(-3.5deg);
+                    -moz-transform: rotate(-3.5deg);
+                    -webkit-transform: rotate(-3.5deg);
+                  }
+                }
+
+                .PostItemTitle {
+                  margin-bottom: 15px;
+                  font-size: 28px;
+                  color: $primaryColor;
+                }
+
+                .PostTimeRead {
+                  display: block;
+                  margin-bottom: 25px;
+                  font-family: 'Montserrat', sans-serif;
+                  font-size: 11px;
+                  font-weight: 600;
+                  letter-spacing: 0.2px;
+                  text-transform: uppercase;
+                  color: $secondaryColor;
+
+                  .splitter {
+                    padding: 0 13px;
+                  }
+                }
+
+                .PostItemText {
+                  font-size: 13px;
+                  line-height: 2;
+                  color: $primaryPostTextColor;
+
+                  // ...
+
+                  display: -webkit-box;
+                  -webkit-line-clamp: 2;
+                  -webkit-box-orient: vertical;
+                  overflow: hidden;
+                }
+              }
+
+              .PostItemBtn {
+                display: block;
+                margin: 0 auto;
+                width: 40px;
+                height: 40px;
+                background-color: $primaryBg;
+                border-radius: 50%;
+
+                & > svg {
+                  width: 12px;
+                  height: 12px;
+                  fill: $primaryWhiteColor;
+                }
+              }
+            }
+          }
+        }
+
+        .LoadMore {
+          position: relative;
+          border: 1px solid $secondaryGreyBorderColor;
+
+          .LoadMoreBtnWrap {
+            position: absolute;
+            left: 50%;
+            top: -25px;
+            transform: translateX(-123px);
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            width: 246px;
+            background-color: $primaryWhiteColor;
+
+            .LoadMoreBtn {
+              width: 180px;
+              height: 50px;
+              font-size: 14px;
+              font-weight: 700;
+              letter-spacing: 1.4px;
+              text-transform: uppercase;
+              border: 1px solid $primaryBorderGreyColor;
+              border-radius: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
