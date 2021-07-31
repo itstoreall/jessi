@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/jessi/static/css/main.5f6bf852.chunk.css",
+    "main.js": "/jessi/static/js/main.7a2149c2.chunk.js",
+    "main.js.map": "/jessi/static/js/main.7a2149c2.chunk.js.map",
+    "runtime-main.js": "/jessi/static/js/runtime-main.e07ba995.js",
+    "runtime-main.js.map": "/jessi/static/js/runtime-main.e07ba995.js.map",
+    "static/css/2.bc922b9c.chunk.css": "/jessi/static/css/2.bc922b9c.chunk.css",
+    "static/js/2.90275d62.chunk.js": "/jessi/static/js/2.90275d62.chunk.js",
+    "static/js/2.90275d62.chunk.js.map": "/jessi/static/js/2.90275d62.chunk.js.map",
+    "index.html": "/jessi/index.html",
+    "static/css/2.bc922b9c.chunk.css.map": "/jessi/static/css/2.bc922b9c.chunk.css.map",
+    "static/css/main.5f6bf852.chunk.css.map": "/jessi/static/css/main.5f6bf852.chunk.css.map",
+    "static/js/2.90275d62.chunk.js.LICENSE.txt": "/jessi/static/js/2.90275d62.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/jessi/static/media/Quentin.d23f1422.otf",
+    "static/media/about-00.a8945c7d.jpg": "/jessi/static/media/about-00.a8945c7d.jpg",
+    "static/media/fashion-01-krishh.ed1dbb60.jpg": "/jessi/static/media/fashion-01-krishh.ed1dbb60.jpg",
+    "static/media/fashion-02-jakob-owens.95d21172.jpg": "/jessi/static/media/fashion-02-jakob-owens.95d21172.jpg",
+    "static/media/fashion-03-alexa-williams.42b0bfc9.jpg": "/jessi/static/media/fashion-03-alexa-williams.42b0bfc9.jpg",
+    "static/media/Footer.module.scss": "/jessi/static/media/footer-01-base.d1388499.jpg",
+    "static/media/Main.module.scss": "/jessi/static/media/hero.14c2bd89.jpg",
+    "static/media/interior-00.d48281e5.jpg": "/jessi/static/media/interior-00.d48281e5.jpg",
+    "static/media/interior-01-analise-benevides.afe6f90e.jpg": "/jessi/static/media/interior-01-analise-benevides.afe6f90e.jpg",
+    "static/media/interior-02-wild-eucalyptus.2f00746c.jpg": "/jessi/static/media/interior-02-wild-eucalyptus.2f00746c.jpg",
+    "static/media/lifeslyle-01-roberto-nickson.455a3ac5.jpg": "/jessi/static/media/lifeslyle-01-roberto-nickson.455a3ac5.jpg",
+    "static/media/sidebar-avatar.8397e33b.png": "/jessi/static/media/sidebar-avatar.8397e33b.png",
+    "static/media/sidebar-popular-01.a1e3e89c.png": "/jessi/static/media/sidebar-popular-01.a1e3e89c.png",
+    "static/media/sidebar-popular-02.f4700296.png": "/jessi/static/media/sidebar-popular-02.f4700296.png",
+    "static/media/sidebar-popular-03.0143155e.png": "/jessi/static/media/sidebar-popular-03.0143155e.png",
+    "static/media/sprite.a884f45e.svg": "/jessi/static/media/sprite.a884f45e.svg",
+    "static/media/travel-01-artem-maltsev.f8945edf.jpg": "/jessi/static/media/travel-01-artem-maltsev.f8945edf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e07ba995.js",
+    "static/css/2.bc922b9c.chunk.css",
+    "static/js/2.90275d62.chunk.js",
+    "static/css/main.5f6bf852.chunk.css",
+    "static/js/main.7a2149c2.chunk.js"
+  ]
+}
